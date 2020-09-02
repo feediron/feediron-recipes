@@ -1,0 +1,21 @@
+{
+        "name": "oglaf.com",
+        "url": "oglaf.com",
+        "stamp": 1599066621,
+        "author": "uqs",
+        "match": "oglaf.com",
+        "config": {
+                "type": "xpath",
+                "xpath": [
+                        "img[@id='strip']",
+                        "img[@id='strip']\/@title",
+                        "img[@id='strip']\/@alt"
+                ],
+                "multipage": {
+                        "xpath": "a[@class='button next' and contains(translate(@href, '1234567890', '@@@@@@@@@@'),'@\/')]",
+                        "append": true,
+                        "recursive": true
+                },
+                "join_element": "<br>"
+        }
+}
