@@ -10,8 +10,8 @@
                 "reformat": [
                         {
                                 "type": "regex",
-                                "pattern": "\/html$\/",
-                                "replace": "html?seite=all"
+                                "pattern": "\/\\.html\/",
+                                "replace": ".html?seite=all"
                         }
                 ],
                 "modify": [
@@ -22,7 +22,7 @@
                         },
                         {
                                 "type": "regex",
-                                "pattern": "\/<.?a-lightbox[^>]*?>\/",
+                                "pattern": "\/<.?a-(lightbox|bilderstrecke)[^>]*?>\/",
                                 "replace": ""
                         }
                 ],
