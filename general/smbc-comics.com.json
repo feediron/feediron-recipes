@@ -1,0 +1,18 @@
+{
+    "name": "smbc-comics.com",
+    "url": "smbc-comics.com",
+    "stamp": 1602769833,
+    "author": "OverZealous",
+    "match": "smbc-comics.com",
+    "config": {
+        "type": "xpath",
+        "xpath": [
+            "img[@id='cc-comic']",
+            "div[@id='aftercomic']\/img",
+            "img[@id='cc-comic']\/@title"
+        ],
+        "start_element": "<p>",
+        "join_element": "<\/p><p>",
+        "end_element": "<\/p>"
+    }
+}
