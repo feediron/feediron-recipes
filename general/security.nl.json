@@ -1,0 +1,11 @@
+{
+    "name": "security.nl",
+    "url": "security.nl",
+    "stamp": 1640700061,
+    "author": "Hugo Ideler",
+    "match": "security.nl",
+    "config": {
+        "type": "xpath",
+        "xpath": "div[@class='posting_content']"
+    }
+}
